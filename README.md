@@ -1,5 +1,5 @@
 # TRC Server
-This git repo gives you a sample code to interact with ISABELA API. There are a sample code built to the linux and gcc compiler and available on the linux-gcc branch.
+This git repo gives you a sample code to interact with ISABELA API. There is a sample code built to the linux and gcc compiler and available on the linux-gcc branch.
 
 ## Linux-GCC
 
