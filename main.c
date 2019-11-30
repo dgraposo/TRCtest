@@ -194,9 +194,9 @@ int main(void)
 	//JSON obect
 	struct json_object *jobj_array_questions, *jobj_array_answers, *jobj_obj;
 	struct json_object *jobj_object_id, *jobj_object_type, *jobj_object_documents, *jobj_object_options, *jobj_object_solution, *jobj_object_timestamp;
-        char url_questions[300] = "http://10.3.4.75:9014/v2/entities/?type=question&limit=100&options=keyValues\0";  //Change the IP to the dns to work otside the department socialiteorion2.dei.uc.pt
-        char url_answers[300] = "http://10.3.4.75:9014/v2/entities/?type=answer&options=keyValues&limit=1000\0"; //Change the IP to the dns to work otside the department socialiteorion2.dei.uc.pt
-        char url_send_data[300] = "http://10.3.4.75:9014/v2/entities"; //Change the IP to the dns to work otside the department socialiteorion2.dei.uc.pt
+        char url_questions[300] = "http://socialiteorion2.dei.uc.pt:9014/v2/entities/?type=question&limit=100&options=keyValues\0";  
+        char url_answers[300] = "http://socialiteorion2.dei.uc.pt:9014/v2/entities/?type=answer&options=keyValues&limit=1000\0"; 
+        char url_send_data[300] = "http://socialiteorion2.dei.uc.pt:9014/v2/entities"; 
 	enum json_type type = 0;
 	int arraylen = 0;
 	int i;
